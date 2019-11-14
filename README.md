@@ -1,20 +1,27 @@
-# NMT_alphadl: Neural Machine Translation Demos
+# Neural Machine Translation 
+
+![Issue](https://img.shields.io/github/issues/alphadl/Neural-Machine-Translation)
+![Star](https://img.shields.io/github/stars/alphadl/Neural-Machine-Translation)
+![Fork](https://img.shields.io/github/forks/alphadl/Neural-Machine-Translation)
+![Twitter](https://img.shields.io/twitter/url/https/github.com%2Falphadl%2FNeural-Machine-Translation
+)
 
 
 
-This is a [Pytorch](https://github.com/pytorch/pytorch) version of NMT_usyd,
-an open-source (MIT) neural machine translation system. It is designed to be research friendly to try out new ideas in translation.
+This repository implemented various kinds of Neural Machine Translation models with [Pytorch](https://github.com/pytorch/pytorch) and [TensorFlow](https://github.com/tensorflow/tensorflow)
 
-**1.Because this version is developed at local PC, so all the code are CPU based.**
+**There are 10k training data and 0.1k validation&test data in the file: [./data/](https://github.com/alphadl/Nerual-Machine-Translation/tree/master/data)
 
-**2.There are 10k training data and 0.1k validation&test data in the file: ./data/**
+[***✨News***]
 
-##News:
+(19 Nov. 2018) // Adding basic seq2seq model ([./seq2seq/seq2seq](https://github.com/alphadl/Nerual-Machine-Translation/blob/master/seq2seq/seq2seq.py))
 
-(19 Nov. 2019) // Adding basic seq2seq model (./seq2seq/seq2seq)
+(21 Nov. 2018) // Adding seq2seq + attn model ([./seq2seq/seq2seq_att](https://github.com/alphadl/Nerual-Machine-Translation/blob/master/seq2seq/seq2seq_att.py))
 
-(21 Nov. 2019) // Adding seq2seq + attn model (./seq2seq/seq2seq_att)
+(26 Nov. 2018) // Adding transformer-simple model ([./transformer/transformer-pt-v1](https://github.com/alphadl/Nerual-Machine-Translation/tree/master/transformers/transformer-pt-v1))
 
-(26 Nov. 2019) // Adding transformer-simple model (./transformer/transformer-pt-v1)
+(26 Nov. 2018) // Adding transformer-simple tf-version ([./transformer/transformer-tf-v1](https://github.com/alphadl/Nerual-Machine-Translation/tree/master/transformers/transformer-tf-v1))
 
-(26 Nov. 2019) // Adding transformer-simple tf-version (./transformer/transformer-tf-v1)
+(01 Dev. 2018) // Adding GAN-NMT ([./Adversarial-NMT](https://github.com/alphadl/Nerual-Machine-Translation/tree/master/Adversarial-NMT))
+
+(19 Jun. 2019) // Adding transformer model ([./transformer/transformer-pt-v2](https://github.com/alphadl/Nerual-Machine-Translation/tree/master/transformers/transformer-pt-v2))
